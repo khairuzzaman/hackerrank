@@ -6,9 +6,21 @@ namespace HackerRank
     {
         static void Main(string[] args)
         {
-            DaySix();
+            DaySeven();
+            //DaySix();
         }
 
+        private static void DaySeven()
+        {
+            int n = Convert.ToInt32(Console.ReadLine());
+            int[] arr = Array.ConvertAll(Console.ReadLine().Split(' '), arrTemp => Convert.ToInt32(arrTemp));
+
+            for(var i = arr.Length - 1; i >= 0; i--)
+            {
+                var space = i == 0 ? "" : " ";
+                Console.Write($"{arr[i]}{space}");
+            }
+        }
         private static void DaySix()
         {
             int T = int.Parse(Console.In.ReadLine());

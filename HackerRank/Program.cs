@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HackerRank.InterviewPreparationKit;
+using System;
 
 namespace HackerRank
 {
@@ -6,8 +7,14 @@ namespace HackerRank
     {
         static void Main(string[] args)
         {
-            DaySeven();
+            //DaySeven();
             //DaySix();
+
+            #region Interview preparation kit
+            RepeatedString.RepeatedStringMain();
+            //JumpingOnCloud.JumpingOnCloudMain();
+            //SalesbyMatch.SalesbyMatchMain();
+            #endregion
         }
 
         private static void DaySeven()
